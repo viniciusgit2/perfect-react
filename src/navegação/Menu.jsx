@@ -1,6 +1,14 @@
 import React from "react";
+import About from "./About";
 export default  function Menu(){
 return(
-<p> foi um teste se o menu estavando</p>
+    <nav>
+    Menu
+    <ul>
+    <li>
+        <link to='./About'></link>
+    </li>
+    </ul>
+    </nav>
 )
 }
