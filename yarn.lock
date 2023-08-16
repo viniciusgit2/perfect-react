@@ -4373,21 +4373,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"certificado-react-2@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "certificado-react-2@workspace:."
-  dependencies:
-    "@testing-library/jest-dom": ^5.17.0
-    "@testing-library/react": ^13.4.0
-    "@testing-library/user-event": ^13.5.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-router-dom: ^6.14.2
-    react-scripts: 5.0.1
-    web-vitals: ^2.1.4
-  languageName: unknown
-  linkType: soft
-
 "chalk@npm:^2.4.1, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
@@ -9725,6 +9710,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"perfect-react@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "perfect-react@workspace:."
+  dependencies:
+    "@testing-library/jest-dom": ^5.17.0
+    "@testing-library/react": ^13.4.0
+    "@testing-library/user-event": ^13.5.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-router: ^6.15.0
+    react-router-dom: ^6.14.2
+    react-scripts: 5.0.1
+    web-vitals: ^2.1.4
+  languageName: unknown
+  linkType: soft
+
 "performance-now@npm:^2.1.0":
   version: 2.1.0
   resolution: "performance-now@npm:2.1.0"
@@ -10928,7 +10929,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.15.0":
+"react-router@npm:6.15.0, react-router@npm:^6.15.0":
   version: 6.15.0
   resolution: "react-router@npm:6.15.0"
   dependencies:

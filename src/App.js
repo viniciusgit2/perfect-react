@@ -1,21 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 import Aleatotio from './componentes/Aleatorio';
 import Card from './componentes/Card'
 import Contador from './componentes/Contadador'
-import Segundo from './componentes/Segundo'
-import Primeiro from'./componentes/Primeiro'
-import Parouimpar from'./componentes/Parouimpar'
-import Membro from './componentes/Membro'
-import Listaaluno from './componentes/Listaaluno'
-import Frag from './componentes/Frag'
-import Calculadora from './calc/Calculadora'
 
+import Calculadora from './calc/Calculadora'
+import Menu from './navegação/Menu';
 function App() {
   return (
    
     <div className="App">
-   
+<Menu></Menu>
       <Contador/>
       <Calculadora/>
        <Aleatotio></Aleatotio>
