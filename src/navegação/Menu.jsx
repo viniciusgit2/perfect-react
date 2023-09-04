@@ -1,14 +1,18 @@
 import React from "react";
-import About from "./About";
-export default  function Menu(){
-return(
+import App from "../App.css";
+import About from './About'
+const Menu=props =>(
+<aside className="Menu">
     <nav>
-    Menu
     <ul>
-    <li>
-        <link to='./About'></link>
-    </li>
-    </ul>
+        <li>
+            <a href="./">inicio</a>
+            </li>
+            <li>
+            <a href="./about">sobre</a>
+            </li>
+        </ul>
     </nav>
+</aside>
 )
-}
+export default Menu

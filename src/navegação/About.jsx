@@ -1,6 +1,11 @@
 import React from "react";
-export default  function About(){
-    return(
-        <p>teste</p>
-    )
-}
+import '../App.css'
+const About=props =>(
+<div className="About">
+<h1>about</h1>
+<p>
+    o sistema foi criado ...
+</p>
+</div>
+)
+export default About
