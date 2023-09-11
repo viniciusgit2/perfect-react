@@ -11,11 +11,21 @@
   background-color: gold;
 padding: 30;
 }
+.text{
+  font-weight: 300;
+  font-size: 5rem;
+}
+.red{
+  font-weight: 700;
+  color: red;
+}
 .Usestate{
-  background-color: chartreuse;
-
-
-  
+  background-color: chartreuse; 
+}
+.input{
+  margin: 20px 0px;
+  font-weight: 300;
+  font-size: 4rem; 
 }
 .Calculadora{
   height: 480px;
@@ -29,10 +39,15 @@ color: goldenrod;
  grid-template-rows:subgrid;
  margin: auto;
 }
+.Center{
+  display: flex;
+}
 .Button{
 background-color: crimson;
 color: black;
-
+border: none;
+outline: none;
+border-radius: 25px;
 }
 .Menu{
   background-color: deepskyblue;
