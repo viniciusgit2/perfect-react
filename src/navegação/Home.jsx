@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css'
+import '../App.css'
 const Home=props =>(
 <div className="Home">
 <h1>Começo</h1>

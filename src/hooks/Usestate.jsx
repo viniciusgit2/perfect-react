@@ -1,11 +1,6 @@
-import React from "react";
-import '../App.css'
-const Usestate=props =>(
-<div className="Usestate">
-<h1>Usestate</h1>
-<p>
-esse é o usestate
-</p>
-</div>
-)
+import react,{usestate} from 'react'
+const Usestate=(props)=>{
+    const array=Usestate(0)
+    return(<div className='UseState'><h1>teste</h1></div>)
+}
 export default Usestate

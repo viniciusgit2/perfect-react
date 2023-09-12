@@ -12,7 +12,9 @@ const Menu=props =>(
             <li>
             <a href="./about">sobre</a>
             </li>
-            
+            <li>
+            <a href="../UseState">use</a>
+            </li>
         </ul>
     </nav>
 </aside>
