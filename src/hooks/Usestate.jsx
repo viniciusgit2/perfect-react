@@ -1,8 +1,12 @@
 import react from 'react'
 import App from "../App.css";
 
-const UseState=(props)=>{
-    const array=UseState(0)
-    return(<div className='UseState'><h1>teste</h1></div>)
-}
-export default UseState
+const UseState=props =>(
+    <div className="UseState">
+    <h1>UseState</h1>
+    <p>
+    to descobrindo
+    </p>
+    </div>
+    )
+    export default UseState
