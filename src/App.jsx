@@ -10,7 +10,6 @@ const App = props => (
             <Menu />
             <Contente />
             <Calculadora></Calculadora>
-          
         </BrowserRouter>
     </div>
 )
