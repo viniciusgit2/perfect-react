@@ -8,8 +8,9 @@ const Contente = props => (
   <main className="Contente">
     <Routes>
     <Route path="/About"  element={<About />}></Route>
-    <Route path="/" exact element={<Home />} />
-    <Route path="../hooks/UseState" exact element={<UseState/>} /> 
+    <Route path="../hooks/UseState" element={<UseState/>} /> 
+
+    <Route path="/Home"  element={<Home />} />
     </Routes>
     {/* --------------------------------------------------- */}
   </main>
