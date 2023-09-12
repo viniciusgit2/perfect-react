@@ -1,7 +1,7 @@
 import React from "react";
 import App from "../App.css";
 import About from './About'
-import Usestate from "../hooks/Usestate";
+import UseState from "../hooks/UseState";
 const Menu=props =>(
 <aside className="Menu">
     <nav>
@@ -13,7 +13,7 @@ const Menu=props =>(
             <a href="./about">sobre</a>
             </li>
             <li>
-            <a href="../UseState">use</a>
+            <a href="../hooks/UseState">use</a>
             </li>
         </ul>
     </nav>

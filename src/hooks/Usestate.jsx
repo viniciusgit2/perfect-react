@@ -1,6 +1,6 @@
 import react,{usestate} from 'react'
-const Usestate=(props)=>{
-    const array=Usestate(0)
+const UseState=(props)=>{
+    const array=UseState(0)
     return(<div className='UseState'><h1>teste</h1></div>)
 }
-export default Usestate
+export default UseState
