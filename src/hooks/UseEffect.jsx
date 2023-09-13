@@ -3,12 +3,14 @@ import React, { useEffect, useState } from "react";
 function calcfatorial(n){
     if(n<0) return 'nãoexiste'
     if(n===0)return 1
+    if(n>1000000000000000000)return 'é um exagero'
     return calcfatorial(n -1)* n
 }
 const UseEfect=props =>{
     const [numero,Setnumero]=useState(1)
     const [fatorial,Setfatorial]=useState(1)
 useEffect (function(){Setfatorial(calcfatorial(numero))})
+
     return(
 
     <div className="UseEfect">
