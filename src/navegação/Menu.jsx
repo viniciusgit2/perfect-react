@@ -3,6 +3,7 @@ import App from "../App.css";
 import About from "./About";
 import UseState from "../hooks/UseState";
 import Home from "./Home";
+import UseEfect from "../hooks/UseEffect";
 const Menu=props =>(
 <aside className="Menu">
     <nav>
@@ -17,6 +18,9 @@ const Menu=props =>(
             <li>
             <li>
             <a href="/UseState">use</a>
+            </li>
+            <li>
+            <a href="/UseEfect">use2</a>
             </li>
             </li>
         </ul>
